@@ -14,9 +14,9 @@ pandas
 biopython
 ```
 ## Installation Guide:
-- install conda if not present
-  - conda it can be installed from e.g. miniconda https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html
-  - Optional: Install libmamba solver (https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community)
+- install conda or miniconda if not present
+  - miniconda can be installed from https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html
+  - optional: Install libmamba solver (https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community)
  - install git if not present 
   - git can be downloaded from https://git-scm.com/
 - clone this repository
@@ -24,7 +24,11 @@ biopython
 git clone https://github.com/BernhardRetzl/cysteine_label
 cd cysteine_label
 ```
+- create a new conda environment
+```
+conda env create -f environment.yml
+```
 
- 5. Create a new environment in conda (conda env create -f environment.yml)
+
  6. Run the scripts in the new created environment with python MSFragger.py and afterwards python calculate_median.py
 Make sure to run the script in the same folder where exactely one file named *_label_quant.tsv (* any character) and exectly one FASTA file *.fasta (* any character) is located.
