@@ -1,3 +1,13 @@
+## System Requirements
+
+### Hardware Requirements
+- **General:** No special hardware requirements. The software is designed to run on standard consumer hardware with enough RAM to load the data.
+
+### Software Requirements
+- **OperatThe software was tested on Windows 11, but it should be compatible with any operating system that supports Anaconda (conda), including macOS and Linux distributions.
+
+
+
 To run the script:
  1. Install conda (e.g. miniconda https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html)
  2. Optional: Install libmamba solver (https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community)
