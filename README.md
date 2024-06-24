@@ -13,7 +13,7 @@ numpy
 pandas
 biopython
 ```
-## Installation and preparation
+## Installation guide
 1.  **Install conda or miniconda (if not present)**
   - Miniconda can be installed from [Miniconda Installation Guide](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
   - Optional: Install the libmamba solver for a faster package resolution. [Learn more about libmamba](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community).
@@ -29,10 +29,14 @@ cd cysteine_label
 conda env create -f environment.yml
 conda activate posttranslational
 ```
-- copy exactly one file named \*_label_quant.tsv (\* any character) and exactely one FASTA-file named \*.fasta (\* any character) into the same folder where the two scripts MSFragger.py and calculate_median.py are located.
 
-## Running of the scripts
+
+## Instructions for use
+- make sure that the right conda environment (posttranslational) ist activated
+- copy exactly one file named \*_label_quant.tsv (\* any character) and exactely one FASTA-file named \*.fasta (\* any character) into the same folder where the two scripts MSFragger.py and calculate_median.py are located.
 ```
 python MSFragger.py
 python calculate_median.py
 ```
+## License
+This project is covered under the **Apache 2.0 License**.
