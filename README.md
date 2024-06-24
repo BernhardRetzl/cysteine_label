@@ -24,11 +24,14 @@ biopython
 git clone https://github.com/BernhardRetzl/cysteine_label
 cd cysteine_label
 ```
-- create a new conda environment
+- create a new conda environment using the environment.yml file and activate the environment
 ```
 conda env create -f environment.yml
+conda activate posttranslational
 ```
-
-
- 6. Run the scripts in the new created environment with python MSFragger.py and afterwards python calculate_median.py
-Make sure to run the script in the same folder where exactely one file named *_label_quant.tsv (* any character) and exectly one FASTA file *.fasta (* any character) is located.
+- copy exactly one file named \*_label_quant.tsv (\* any character) and exactely one FASTA-file named \*.fasta (\* any character) into the same folder where the script is located
+- run the two scripts with:
+```
+python MSFragger.py
+python calculate_median.py
+```
