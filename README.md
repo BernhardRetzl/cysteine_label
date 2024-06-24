@@ -6,6 +6,13 @@
 ### Software Requirements
 - **Operating System:** The software was tested on Windows 11, but it should be compatible with any operating system that supports Anaconda (conda), including macOS and Linux distributions.
 
+### Python Dependencies
+The script mainly depends on the scientific packages:
+```
+numpy
+pandas
+biopython
+```
 
 
 To run the script:
