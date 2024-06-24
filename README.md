@@ -4,7 +4,7 @@
 - **General:** No special hardware requirements. The software is designed to run on standard consumer hardware with enough RAM to load the data.
 
 ### Software Requirements
-- **OperatThe software was tested on Windows 11, but it should be compatible with any operating system that supports Anaconda (conda), including macOS and Linux distributions.
+- **Operating System:** The software was tested on Windows 11, but it should be compatible with any operating system that supports Anaconda (conda), including macOS and Linux distributions.
 
 
 
